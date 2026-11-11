@@ -33,6 +33,7 @@
        width: 80%;
        margin: 20px auto;
        padding: 20px;
+       text-align: center;
        border-radius: 10px;
        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
    }
@@ -75,6 +76,7 @@
        text-align: center;
        border-radius: 8px;
    }
+
    .caja:hover {
        background-color: #2980b9;
        cursor: pointer;
