@@ -124,3 +124,10 @@
        object-fit: fill;
        object-position: center;
    }
+   .obectposition{
+    width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;       /* Llena el círculo recortando lo que sobra */
+  object-position: 50% 15%; /* Enfoca el tercio superior (el rostro) en vez del centro */
+   }
