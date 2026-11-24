@@ -28,6 +28,10 @@
        text-decoration: underline;
    }
 
+   .portada {
+       text-align: center;
+   }
+
    main {
        background-color: white;
        width: 80%;
@@ -47,9 +51,10 @@
        color: white;
        text-align: center;
        padding: 1rem;
-       position: fixed;
+      /* position: fixed;*/
        bottom: 0;
        width: 100%;
+       margin-top: 20px;
    }
 
    .menu {
@@ -83,14 +88,39 @@
        z-index: 1;
    }
 
-   img {
+   .imgcentradofigurefigcaption {
 
        height: 300px;
        width: 300px;
    }
 
    .centradofigurefigcaption {
+
        display: flex;
        flex-direction: column;
        align-items: center;
+   }
+.centradoobjctfit{
+       text-align: center;
+       margin-top: 10px;
+   }
+   .objerfitcover {
+       width: 200px;
+       height: 150px;
+       object-fit: cover;
+       object-position: center;
+   }
+
+   .objerfitcontain {
+       width: 200px;
+       height: 150px;
+       object-fit: contain;
+       object-position: center;
+   }
+
+   .objectfitfill {
+       width: 200px;
+       height: 150px;
+       object-fit: fill;
+       object-position: center;
    }
